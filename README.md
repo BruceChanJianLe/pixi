@@ -2,6 +2,8 @@
 > address the challenges of software development in scientific computing,
 > especially in robotics and AI.
 
+[!image](https://github.com/user-attachments/assets/e93d3b74-0f84-4276-a1dc-2dc9a6e08711)
+
 ## Installation
 
 Based on official website:  
