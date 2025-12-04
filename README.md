@@ -36,3 +36,20 @@ and use the command below:
 nix develop github:brucechanjianle/pixi -c $SHELL
 ```
 
+## Demo
+
+The demo video above uses `autoenv` a zsh plugin to start the pixi environment.
+Note that, if you would like to indicate your shell with a robot emoji while
+using pixi, please check out my [dotfiles](https://github.com/brucechanjianle/dotfiles).
+I have also provide an ansible playbook to quickly get you started!  
+
+
+To install with nix, use the full setup
+```bash
+ansible-pull -U https://github.com/brucechanjianle/ansible --ask-become-pass
+```
+
+To install just the dotfiles, use the partial setup
+```bash
+ansible-pull -U https://github.com/brucechanjianle/ansible --skip-tags additional --ask-become-pass
+```
