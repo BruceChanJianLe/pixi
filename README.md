@@ -53,3 +53,8 @@ To install just the dotfiles, use the partial setup
 ```bash
 ansible-pull -U https://github.com/brucechanjianle/ansible --skip-tags additional --ask-become-pass
 ```
+
+## Pixi
+
+To learn more about pixi, please check out their website (https://pixi.sh/dev/tutorials/ros2/).
+Do note that for jazzy you will need to use `robostack-jazzy`, humble is `robotstack`.  
